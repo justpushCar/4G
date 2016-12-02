@@ -3,36 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
-<title>仓位控制表</title>
+<title></title>
 <link rel="stylesheet" type="text/css" href="css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <script src="js/comm.js"></script>
 </head>
 <body>
-	<div class="main_control">
-		<h2 style="font-size:1rem;text-align: center;height: 3.2rem;line-height: 3.2rem;">仓位控制表</h2>
-		<p style="font-size: .7rem;color: #666;padding:0 1rem 1rem 1rem;line-height:1rem;">
-			仓位控制表是根据市场风险程度提示的股票账户仓位建议，市场行情越好，建议仓位越高，反之仓位越低。	
-		</p>
-		<div class="control-box psr">
-			<img src="img/zhen.png" class="rote" value-index="9">
-		</div>
-		<p style="font-size: .7rem;color: #666;padding: 1rem;line-height: 1rem;">
-			例如:资金10万元，如果仓位提示8成，说明对市场行情比较乐观，持有8万市值股票；如果仓位提示2成，说明市场风险较大，轻仓观望，持有2万元市值股票。
-		</p>
-	</div>
+	
 </body>
 <script src="js/zeptoJs.js"></script>
-<script type="text/javascript">
-$(function(){
-	var vlue=$(".rote").attr('value-index');
-	$vlue=vlue*18-108;
-	$(".rote").css({
-		"transform":'rotate('+$vlue+"deg)",
-		"-moz-transform":'rotate('+$vlue+"deg)",
-		"-webkit-transform":'rotate('+$vlue+"deg)",
-		"-o-transform":'rotate('+$vlue+"deg)"	
-	})
-})
-</script>
 </html>
