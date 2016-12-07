@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+}
+/*新闻列表*/
+.new-model1 {
+  width: 100%;
+}
+.new-model1 .new-top {
+  margin: 0 .5rem;
+  height: 1.92rem;
+  border-bottom: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  width: 15rem;
+  line-height: 1.32266667rem;
+}
+.new-model1 .new-top .span1 {
+  color: #333;
+  font-size: 0.768rem;
+  border-bottom: 4px solid #4293ee;
+  box-sizing: border-box;
+  padding-top: 0.42666667rem;
+  font-weight: bold;
+}
+.new-model1 .new-top .span2 {
+  padding-top: 0.42666667rem;
+  padding-bottom: 0.21333333rem;
+}
+.new-model1 .new-top .span2 a {
+  color: #4293ee;
+  font-size: 0.72533333rem;
+}
+.new-model1 .new-list {
+  border-bottom: 1px solid #c8c8c8;
+  padding: 0.42666667rem;
+}
+.new-model1 .new-list p {
+  line-height: 1.49333333rem;
+  padding: 0 0.01066667rem;
+  overflow: hidden;
+  width: 15rem;
+  height: 1.49333333rem;
+  word-break: break-all;
+}
+.new-model1 .new-list p a {
+  color: #000;
+  font-size: 0.768rem;
+}
+.new-model1 .more {
+  height: 1.96266667rem;
+  line-height: 1.96266667rem;
+  text-align: center;
+}
+.new-model1 .more a {
+  color: #999;
+  font-size: 0.72533333rem;
+}
+.new-model1 .more img {
+  width: 0.256rem;
+  height: 0.42666667rem;
+  vertical-align: middle;
+}
+/*撑开的部分*/
+.h-box {
+  width: 100%;
+  height: 0.42666667rem;
+  background: #e8e8e8;
+}
